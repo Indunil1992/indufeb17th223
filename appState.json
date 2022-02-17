@@ -1,0 +1,135 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "8ff21346-b216-4b04-83bb-d048b2d6b075": {
+        "id": "8ff21346-b216-4b04-83bb-d048b2d6b075",
+        "parent": null,
+        "name": "indufeB17th22.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "indufeB17th22.py",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "python3.9",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "indufeB17th22"
+        },
+        "triggers": [
+          {
+            "resourceName": "apigInduuuuuoinduuuany",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1645075819975,
+        "testCases": {
+          "3824e774-dfe3-4c08-b43a-cee324683936": {
+            "id": "3824e774-dfe3-4c08-b43a-cee324683936",
+            "name": "Test event",
+            "functionId": "8ff21346-b216-4b04-83bb-d048b2d6b075",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      },
+      "2b290c01-80f0-48da-a9a4-643727185ac1": {
+        "id": "2b290c01-80f0-48da-a9a4-643727185ac1",
+        "parent": null,
+        "name": "requirements.txt",
+        "type": "TEXT_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "requirements.txt"
+      }
+    },
+    "openFiles": [
+      "8ff21346-b216-4b04-83bb-d048b2d6b075"
+    ],
+    "currentFileId": "8ff21346-b216-4b04-83bb-d048b2d6b075",
+    "resources": {
+      "apigInduuuuuoinduuuany": {
+        "name": "apigInduuuuuoinduuuany",
+        "type": "API_GATEWAY",
+        "config": {
+          "apiType": 1,
+          "apiMode": 0,
+          "apiName": "Induuuuu",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "o/induuu",
+          "resourcePath": "/o/induuu",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "prod",
+          "mode": 0
+        }
+      },
+      "kinesisINDUU": {
+        "name": "kinesisINDUU",
+        "type": "Kinesis",
+        "config": {
+          "mode": 0,
+          "StreamName": "INDUU",
+          "shards": 1,
+          "region": "us-east-1",
+          "operation": "putRecord"
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "boto3": {
+          "name": "boto3",
+          "language": "python",
+          "version": "1.16.43",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.9.5.2",
+    "projectName": "indufeB17th22",
+    "projectDescription": "stagingTesting",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1645078110431
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "indufeb17th223",
+      "url": "https://github.com/Indunil1992/indufeb17th223"
+    }
+  }
+}
